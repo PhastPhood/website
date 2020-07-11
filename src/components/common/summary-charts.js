@@ -270,7 +270,7 @@ export default ({ name = 'National', history, usHistory, annotations }) => {
             lineColor={colors.colorPlum700}
             lastXTick={showTodaysChartTick}
             renderTooltipContents={makeRenderTooltipContents(`new tests`)}
-            renderOptions={{ filename: 'new-tests.png', ...baseRenderOptions }}
+            renderOptions={{ filename: 'new-tests', ...baseRenderOptions }}
             {...props}
           />
         </Col>
@@ -293,7 +293,7 @@ export default ({ name = 'National', history, usHistory, annotations }) => {
               lastXTick={showTodaysChartTick}
               renderTooltipContents={makeRenderTooltipContents('new cases')}
               renderOptions={{
-                filename: 'new-cases.png',
+                filename: 'new-cases',
                 ...baseRenderOptions,
               }}
               {...props}
@@ -327,7 +327,7 @@ export default ({ name = 'National', history, usHistory, annotations }) => {
                 </>,
               )}
               renderOptions={{
-                filename: 'hospitalizations.png',
+                filename: 'hospitalizations',
                 ...baseRenderOptions,
               }}
               {...props}
@@ -355,7 +355,7 @@ export default ({ name = 'National', history, usHistory, annotations }) => {
               lastXTick={showTodaysChartTick}
               renderTooltipContents={makeRenderTooltipContents('new deaths')}
               renderOptions={{
-                filename: 'new-deaths.png',
+                filename: 'new-deaths',
                 ...baseRenderOptions,
               }}
               {...props}
